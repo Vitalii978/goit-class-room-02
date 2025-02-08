@@ -1,0 +1,317 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #fafafa;
+    color: #111;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+.orange {
+    color: #fd9222;
+}
+
+.section-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+button {
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* #region heder */
+.header-page {}
+
+.logo {
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: -0.03em;
+    color: #111;
+}
+
+.logo-style {
+    font-style: italic;
+}
+
+.header-nav {}
+
+.header-nav-list {}
+
+.header-nav-item {}
+
+.heder-nav-link-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+
+.header-nav-link-item:hover,
+.header-nav-link-item:focus {
+    color: #fd9222;
+}
+
+/* #endregion heder*/
+
+/* #region hero */
+
+.hero {
+    background: #1e1823;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21;
+    letter-spacing: -0.03em;
+    color: #fff
+}
+
+.hero-btn {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+    background-color: #fd9222;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #fd9222;
+    background-color: #fcf1e0;
+}
+
+.hero-link-made {
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.hero-link-made:hover,
+.hero-link-made:focus {
+    color: #fd9222;
+}
+.hero-link-down {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.03em;
+    color: #fff;
+}
+
+.hero-link-down:hover,
+.hero-link-down:focus {
+    color: #fd9222;
+}
+/* #endregion hero */
+
+/* #region-benefits */
+
+.benefits {
+    background-color: #1e1823;
+}
+
+.benefits-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #111;
+}
+
+.benefits-list {}
+
+.benefits-list-item {}
+
+.benefits-list-item-titel {
+    font-weight: 600;
+    font-size: 18px;
+    color: #fff;
+}
+
+benefits-list-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+/* #endregion-benefits */
+
+/* #region-ingredients */
+
+.ingredients {}
+
+.ingredients-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #111;
+}
+
+.ingredients-list {}
+
+.ingredients-list-item-orange {
+    background-color: #fd9222;
+}
+
+.ingredients-list-item-black {
+    background: #1e1823;
+}
+
+.ingredients-list-subtitle {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.ingredients-list-subtitle-black {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #111;
+}
+
+/* #endregion-ingredients */
+
+/* #region-made */
+
+.made {}
+
+.made-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #111;
+}
+
+.made-list {}
+
+.made-list-item {}
+
+.made-list-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+    color: #111;
+}
+/* #endregion-made */
+
+/* #region-reviews */
+
+.reviews {}
+
+.reviews-list {}
+
+.reviews-list-item {
+    background: #fff;
+}
+
+.reviews-list-item-subtitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.33;
+    text-align: center;
+    color: #111;
+}
+
+.reviews-list-item-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: rgba(17, 17, 17, 0.7)
+}
+
+.reviews-btn {
+font-weight: 600;
+font-size: 18px;
+color: #111
+}
+
+.reviews-btn:hover,
+.reviews-btn:focus {
+    background-color: #fd9222;
+    color: #fff;
+}
+/* #endregion-reviews */
+
+
+/* #region-footer */
+
+.footer-nav .header-nav-link-item {
+    color: #fff;
+}
+
+.footer {
+    background-color: #1e1823;
+}
+
+.footer-text {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 1.21429;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.footer-adress {
+    font-style: normal;
+}
+
+.footer-adress-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28;
+    color: #fff;
+}
+
+.footer-adress-list {}
+
+.footer-adress-item {}
+
+.footer-adress-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: #fff
+}
+
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+    color: #fd9222;
+}
+
+.footer-nav .header-nav-link-item:hover,
+.footer-nav .header-nav-link-item:focus {
+    color: #fd9222;
+}
+
+
+/* #endregion-footer */
